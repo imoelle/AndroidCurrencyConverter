@@ -17,10 +17,10 @@ public class MainActivity extends AppCompatActivity {
         EditText currencyInput = findViewById(R.id.editTextCurrencyInput);
         TextView convertedValue = findViewById(R.id.textViewValueConverted);
 
-        double convertingValue = 1.200;
+        double convertingValue = 1.2000;
 
         if(currencyInput.getText().toString().isEmpty()) {
-            Toast.makeText(this, "Please type in a value in USD ($)", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Please type in a value in USD (€)", Toast.LENGTH_SHORT).show();
         } else {
             double currencyInDollar = Double.parseDouble(currencyInput.getText().toString());
             double currencyInEuro = currencyInDollar / convertingValue;
