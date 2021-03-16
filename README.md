@@ -1,1 +1,1 @@
-AndroidCurrencyConverter
+AndroidCurrencyCalculator
